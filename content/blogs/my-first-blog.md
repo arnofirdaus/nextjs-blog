@@ -1,6 +1,6 @@
 ---
 title: My First Blog Edited
-date: 24, August, 2021
+date: August 18, 2021 4:00 AM
 ---
 
 # Welcome to my blog
