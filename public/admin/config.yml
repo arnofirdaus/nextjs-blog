@@ -16,3 +16,18 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Address"
+        name: "address"
+        widget: "object"
+        collapsed: true
+        fields: 
+          - {label: "Street Address", name: "street", widget: "string"}
+          - {label: "City", name: "city", widget: "string"}
+          - {label: "Postal Code", name: "post-code", widget: "string"}
+      - label: "City"
+        name: "airport-code"
+        widget: "select"
+        options:
+          - { label: "Chicago", value: "ORD" }
+          - { label: "Paris", value: "CDG" }
+          - { label: "Tokyo", value: "HND" }
