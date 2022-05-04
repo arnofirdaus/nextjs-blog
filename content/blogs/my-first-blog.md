@@ -1,5 +1,5 @@
 ---
-title: "My First Blog"
+title: My First Blog Edited
 date: 24, August, 2021
 ---
 
